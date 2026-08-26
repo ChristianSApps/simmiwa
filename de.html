@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <title>Simmiwa - Körperwerte auf einen Blick</title>
@@ -16,191 +16,379 @@
     <link rel="stylesheet" href="./css/main.css" />
 </head>
 
-
 <body>
+    <div class="page">
+        <!-- =======================================================
+       HEADER
+  ======================================================== -->
+        <header>
+            <div class="nav-container">
+                <a class="logo" href="./de.html">
+                    <img src="./images/logo.png" width="68" height="68" style="object-fit: contain;" />
+                </a>
 
-    <!-- Header Navigation -->
-    <header>
-        <div class="nav-container">
-            <a class="logo" href="./de.html">Simmiwa</a>
 
-            <!-- Hidden checkbox to control mobile dropdown toggle via CSS -->
-            <input type="checkbox" id="menu-toggle" class="menu-toggle">
-            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">&#9776;</label>
 
-            <ul class="nav-menu">
-                <li><a href="#home">Start</a></li>
-                <li><a href="#features">Funktionen</a></li>
-                <li><a href="#contact">Kontakt</a></li>
-                <li><a href="./index.html">English</a></li>
-            </ul>
-        </div>
-    </header>
-
-    <!-- Hero Content Header -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <h1>Simmiwa</h1>
-            <p>Entstanden aus einem persönlichen Bedürfnis: Gesundheitsdaten, Ziele und Fortschritte einfach zu
-                erfassen,
-                verstehen und verwalten – alles an einem Ort.</p>
-            <p>Ihre persönlichen Körperdaten. Einfach zu erfassen. Übersichtlich dargestellt. Privat auf Ihrem iPhone.
-            </p>
-        </div>
-    </section>
-
-    <!-- Main Dynamic Content Sections -->
-    <main class="container">
-
-        <!-- Features Grid -->
-        <section id="features">
-            <h2 class="section-title">Körperwerte einfach im Blick</h2>
-            <h3 class="section-title margin-bottom-large">Ihre Gesundheit. Ihre Daten. Ihr Fortschritt.</h3>
-            <div class="grid">
-                <div class="card">
-                    <h3>Körperwerte</h3>
-                    <p>Gewicht, Körperfettanteil und Muskelmasse. Behalten Sie Ihre Messwerte im Blick. Alles auf einen
-                        Blick.</p>
+                <ul class="nav-menu">
+                    <li><a href="#home">Start</a></li>
+                    <li><a href="#features">Funktionen</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                    <li><a href="./index.html">English</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <section class="titleline" id="home">
+                <h1>
+                    Simmiwa
+                </h1>
+            </section>
+            <!-- =====================================================
+         HERO
+    ====================================================== -->
+            <section class="hero" id="features">
+                <div class="container hero-grid">
+                    <div>
+                        <div class="eyebrow">
+                            KÖRPER / GESUNDHEIT / FORTSCHRITT
+                        </div>
+                        <h1 class="hero-title">
+                            IHRE
+                            <span>
+                                DATEN.
+                            </span>
+                        </h1>
+                        <p class="hero-description">
+                            Eine einfache Möglichkeit, Ihren Körper zu verstehen,
+                            auf Ihre Gesundheit zu achten und in Bewegung zu bleiben
+                            damit Sie Ihre Ziele erreichen.
+                        </p>
+                    </div>
+                    <div class="hero-number">
+                        <div class="hero-value">
+                            81
+                        </div>
+                        <div class="hero-unit">
+                            KG
+                        </div>
+                        <div class="hero-change">
+                            ↓ 3 KG SEIT JANUAR
+                        </div>
+                    </div>
                 </div>
-                <div class="card">
-                    <h3>Vitalfunktionen</h3>
-                    <p>Erstellen Sie eine persönliche Historie, die es Ihnen erleichtert, Veränderungen und Trends zu
-                        verfolgen.</p>
+            </section>
+            <!-- =====================================================
+         TIMELINE
+    ====================================================== -->
+            <section class="timeline-section">
+                <div class="container timeline">
+                    <div class="timeline-item reveal">
+                        <div class="timeline-content">
+                            <div class="timeline-date">
+                                JANUAR 2026
+                            </div>
+                            <div class="timeline-value">
+                                84,4
+                            </div>
+                            <div class="timeline-label">
+                                GEWICHT / KG
+                            </div>
+                        </div>
+                        <div class="phone timeline-phone">
+                            <div class="phone-screen">
+                                <img src="./images/de 01 body weight chart.png" alt="Simmiwa App Bodyweight">
+                            </div>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-item reveal">
+                        <div class="timeline-content">
+                            <div class="timeline-date">
+                                FEBRUAR 2026
+                            </div>
+                            <div class="timeline-value">
+                                83,1
+                            </div>
+                            <div class="timeline-label">
+                                GEWICHT / KG
+                            </div>
+                        </div>
+                        <div class="phone timeline-phone">
+                            <div class="phone-screen">
+                                <img src="./images/de 26 bmi chart.png" alt="Simmiwa App BMI">
+                            </div>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-item reveal">
+                        <div class="timeline-content">
+                            <div class="timeline-date">
+                                März 2026
+                            </div>
+                            <div class="timeline-value">
+                                81
+                            </div>
+                            <div class="timeline-label">
+                                GEWICHT / KG
+                            </div>
+                        </div>
+                        <div class="phone timeline-phone">
+                            <div class="phone-screen">
+                                <img src="./images/de 27 bmr chart.png" alt="Simmiwa App BMR">
+                            </div>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
                 </div>
-                <div class="card">
-                    <h3>Body Roundness Index (BRI)</h3>
-                    <p>Noch nie von BRI gehört? Das können Sie hier ändern. Achten Sie nicht nur auf Ihren BMI, der BRI
-                        ist entscheidend.</p>
+            </section>
+            <!-- =====================================================
+         STATEMENT
+    ====================================================== -->
+            <section class="statement">
+                <div class="container statement-inner reveal">
+                    <div class="statement-line">
+                        NICHT
+                    </div>
+                    <div class="statement-line">
+                        NUR
+                    </div>
+                    <div class="statement-line">
+                        GEWICHT.
+                    </div>
                 </div>
-            </div>
-        </section>
-
-        <section style="padding-top: 2rem;">
-            <div class="card">
-                <h3>Ihr Profil</h3>
-                <p>Passen Sie Ihr Profil an Ihre Bedürfnisse an:</p>
-                <div style="padding-left: 2rem; padding-bottom: 1rem;">
-                    <ul>
-                        <li>Geben Sie Ihre Körpergröße in Fuß oder Zentimetern ein</li>
-                        <li>Ihr Gewicht kann in Kilogramm, Pfund oder Stein angegeben werden</li>
-                        <li>Notieren Sie Ihre Körperfettwerte als <u>Prozentwert</u> oder in der <u>selben Einheit</u>
-                            wie Ihr Gewicht
-                        </li>
-                        <li>Das Gleiche gilt für die Muskelmasse</li>
-                        <li>Bitte achten Sie auf Ihren Blutzuckerspiegel, egal ob in mg/dl oder mmol/l</li>
-                    </ul>
+            </section>
+            <!-- =====================================================
+         METRICS
+    ====================================================== -->
+            <section class="metrics">
+                <div class="container">
+                    <div class="metrics-intro reveal">
+                        <div class="metrics-title">
+                            Betrachten Sie<br>
+                            das<br>
+                            große Ganze.
+                        </div>
+                        <div class="metrics-description">
+                            Ihr Körper ist mehr als nur eine Zahl.
+                            Verfolgen Sie Messwerte, die Ihnen wichtig sind und beobachten, wie sie sich im Laufe der
+                            Zeit
+                            verändern.
+                        </div>
+                    </div>
+                    <div class="metric reveal">
+                        <div class="metric-value">
+                            18,7%
+                        </div>
+                        <div class="metric-info">
+                            <div class="metric-name">
+                                KÖRPERFETT
+                            </div>
+                            <div class="metric-change">
+                                ↓ 1,4% SEIT JANUAR
+                            </div>
+                        </div>
+                    </div>
+                    <div class="metric reveal">
+                        <div class="metric-value">
+                            25,1
+                        </div>
+                        <div class="metric-info">
+                            <div class="metric-name">
+                                MUSKELMASSE / KG
+                            </div>
+                            <div class="metric-change">
+                                ↑ 1,1 KG SEIT JANUAR
+                            </div>
+                        </div>
+                    </div>
+                    <div class="metric reveal">
+                        <div class="metric-value">
+                            22,1
+                        </div>
+                        <div class="metric-info">
+                            <div class="metric-name">
+                                BMI
+                            </div>
+                            <div class="metric-change">
+                                INNERHALB IHRES ZIELS
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <p>
-                    Welcher Blutdruckrichtlinie folgen Sie? Im Zweifel halten Sie Rücksprache mit Ihrem Arzt.<br>Ist
-                    es
-                    die der <b>American Heart Association (AHA)</b>, <b>European Society of Hypertension (ESH)</b> oder
-                    der
-                    <b>European
-                        Society of
-                        Cardiology (ESC)</b>?
-                </p>
-                <p>
-                    Keine Sorge, wir zeigen Ihnen die Unterschiede.
-                </p>
-            </div>
-        </section>
-
-        <section style="padding-top: 2em;">
-            <div class="card">
-                <h3>Körperwerte</h3>
-                <p>Dokumentieren Sie Ihr Gewicht, Ihren Körperfettanteil, Ihre Muskelmasse, Ihren BMI (Body-Mass-Index)
-                    und Ihren BRI (Body Roundness Index). Beobachten Sie, wie sich Ihre Werte im Laufe der Zeit
-                    verändern.</p>
-            </div>
-        </section>
-
-        <section class="section-app-image">
-            <div class="grid-center-items">
-                <!-- <a href="./images/de 30 overview.png" target="_blank" rel="noopener noreferrer"> -->
-                <img src="./images/de 30 overview.png" width="70%" alt="Click to enlarge" />
-                <!-- </a> -->
-                <img src="./images/de 01 body weight chart.png" width="70%" />
-                <img src="./images/de 05 bri chart.png" width="70%" />
-            </div>
-        </section>
-
-        <section style="padding-top: 2em;">
-            <div class="card">
-                <h3>Setzen Sie sich Ziele</h3>
-                <p>Definiere Sie Ihre eigenen Ziele für jeden Bereich und verfolgen Ihre Fortschritte beim Erreichen
-                    dieser
-                    Ziele. Ob Sie
-                    ein bestimmtes Gewicht erreichen, Ihre Körperzusammensetzung verbessern oder Ihre Maße in einem
-                    gewünschten Bereich halten möchten – Ihre Ziele helfen Ihnen, fokussiert zu bleiben.</p>
-            </div>
-        </section>
-
-        <section class="section-app-image">
-            <div class="grid-center-items">
-                <img src="./images/de 20 body weight targets.png" width="50%" />
-            </div>
-        </section>
-
-        <section style="padding-top: 2em;">
-            <div class="card">
-                <h3>Blutdaten</h3>
-                <p>Im Bereich „Blut“ können Sie wichtige Messwerte wie Blutzucker und Blutdruck erfassen,
-                    wodurch Sie einen praktischen und einfachen Überblick über Ihre persönlichen Gesundheitsdaten
-                    erhalten.</p>
-            </div>
-        </section>
-
-        <section class="section-app-image">
-            <div class="grid-center-items">
-                <img src="./images/de 10 blood pressure chart.png" width="70%" />
-                <img src="./images/de 15 blood sugar chart.png" width="70%" />
-            </div>
-        </section>
-
-        <section style="padding-top: 2rem;">
-            <h2 class="section-title margin-bottom-large">Abonnement im App Store</h2>
-            <div class="grid">
-                <div class="card subscription">
-                    <h3>Wöchentlich</h3>
-                    <p>$1.99</p>
-                    <p><b>3 Tage voller kostenloser Zugriff</b></p>
-                    <p>Anschließend voller Zugriff mit einem Wochenabonnement</p>
+            </section>
+            <!-- =====================================================
+         BRI
+    ====================================================== -->
+            <section class="bri">
+                <div class="container bri-grid">
+                    <div class="reveal">
+                        <div class="eyebrow">
+                            EINE ANDERE PERSPEKTIVE
+                        </div>
+                        <h2 class="bri-title">
+                            KENNEN SIE<br>
+                            IHREN<br>
+                            BODY<br>
+                            ROUNDNESS INDEX?
+                        </h2>
+                        <p class="bri-description">
+                            Der Body Roundness Index bietet Ihnen
+                            eine weitere Möglichkeit, Ihre Körperzusammensetzung zu betrachten.
+                        </p>
+                    </div>
+                    <div class="phone bri-phone reveal">
+                        <div class="phone-screen">
+                            <img src="./images/de 05 bri chart.png" alt="Simmiwa App BRI">
+                        </div>
+                    </div>
                 </div>
-                <div class="card subscription">
-                    <h3>Jährlich</h3>
-                    <p>$49.99</p>
-                    <p><b>7 Tage voller kostenloser Zugriff</b></p>
-                    <p>Anschließend voller Zugriff mit einem Jahresabonnement</p>
+            </section>
+            <!-- =====================================================
+         HEALTH
+    ====================================================== -->
+            <section class="health">
+                <div class="container">
+                    <div class="health-heading reveal">
+                        <div class="eyebrow">
+                            ÜBER DIE KÖRPERZUSAMMENSETZUNG HINAUS
+                        </div>
+                        <h2 class="health-title">
+                            Simmiwa
+                        </h2>
+                    </div>
+                    <div class="health-grid">
+                        <div class="health-item reveal">
+                            <div>
+                                <div class="health-value">
+                                    118/78
+                                </div>
+                                <div class="health-label">
+                                    BLUTDRUCK / MMHG
+                                </div>
+                            </div>
+                            <div class="phone health-phone">
+                                <div class="phone-screen">
+                                    <img src="./images/de 10 blood pressure chart.png" alt="Simmiwa App Blood Pressure">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="health-item reveal">
+                            <div>
+                                <div class="health-value">
+                                    103
+                                </div>
+                                <div class="health-label">
+                                    BLUTZUCKER / MG/DL
+                                </div>
+                            </div>
+                            <div class="phone health-phone">
+                                <div class="phone-screen">
+                                    <img src="./images/de 15 blood sugar chart.png" alt="Simmiwa App Blood Sugar">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-
-        <section style="padding-top: 2rem;">
-            <div class="grid">
-                <div class="card">
-                    <h3>Nach Ablauf des Abonnements</h3>
-                    <p>Nachdem einem Abonnement abgelaufen ist erhalten Sie weiterhin vollen Zugriff auf Ihre bereits
-                        erfassten Daten. Es koennen allerdings keine neuen Daten erstellt werden.</p>
+            </section>
+            <!-- =====================================================
+         GOALS
+    ====================================================== -->
+            <section class="goals">
+                <div class="container">
+                    <div class="eyebrow reveal">
+                        REINE ZAHLEN SIND NICHT DAS ZIEL.
+                    </div>
+                    <h2 class="goals-title reveal">
+                        Fortschritt
+                        <span>
+                            IST ES.
+                        </span>
+                    </h2>
+                    <p class="goals-description reveal">
+                        Setzen Sie sich persönliche Ziele für Ihre Körper- und Gesundheitsdaten. Beobachten Sie dann
+                        Ihre Fortschritte im Laufe der Zeit.
+                    </p>
+                    <div class="phone goals-phone reveal">
+                        <div class="phone-screen">
+                            <img src="./images/de 20 body weight targets.png" alt="Simmiwa App Targets">
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-
-        <section id="contact" style="padding-top: 2rem;">
-            <div class="grid">
-                <div class="card">
-                    <h3>Kontakt Informationen</h3>
-                    <p>simmiwa@protonmail.com</p>
+            </section>
+            <!-- =====================================================
+         FINAL
+    ====================================================== -->
+            <section class="final" id="download">
+                <div class="reveal">
+                    <div class="eyebrow">
+                        IHR KÖRPER / IHRE DATEN
+                    </div>
+                    <h2 class="final-title">
+                        IHR<br>
+                        <span>
+                            FORTSCHRITT.
+                        </span>
+                    </h2>
+                    <a href="#" class="app-store">
+                        Im App Store herunterladen ↗
+                    </a>
                 </div>
+            </section>
+
+            <section id="contact" class="container" style="text-align: center;">
+                <h3>Kontakt Informationen</h3>
+                <p>simmiwa@protonmail.com</p>
+            </section>
+        </main>
+        <!-- =======================================================
+       FOOTER
+  ======================================================== -->
+        <footer class="container">
+            <div>
+                <span>
+                    Simmiwa
+                </span>
+                <span>
+                    &copy; 2026
+                </span>
+                <span>
+                    FÜR IPHONE
+                </span>
             </div>
-        </section>
-    </main>
-
-    <!-- Global Footer -->
-    <footer>
-        <p>&copy; 2026 Simmiwa - Körperwerte auf einen Blick</p>
-        <p><a href=" ./terms_de.html">Nutzungsbedingungen</a> &amp; <a href="./privacy_de.html">Datenschutz</a></p>
-    </footer>
-
+            <div>
+                <a href=" ./terms_de.html">Nutzungsbedingungen</a> &amp; <a href="./privacy_de.html">Datenschutz</a>
+            </div>
+        </footer>
+    </div>
+    <!-- =========================================================
+     SIMPLE SCROLL REVEAL
+========================================================= -->
+    <script>
+        const revealElements = document.querySelectorAll(".reveal");
+        const observer =
+            new IntersectionObserver(
+                entries => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add(
+                                "visible"
+                            );
+                            observer.unobserve(
+                                entry.target
+                            );
+                        }
+                    });
+                },
+                {
+                    threshold: 0.12
+                }
+            );
+        revealElements.forEach(
+            element => observer.observe(element)
+        );
+    </script>
 </body>
 
 </html>
