@@ -15,8 +15,7 @@ body {
     margin: 0;
     background: #f5f5f2;
     color: #11110f;
-    font-family:
-        -apple-system,
+    font-family: -apple-system,
         BlinkMacSystemFont,
         "SF Pro Display",
         "SF Pro Text",
@@ -70,8 +69,7 @@ PAGE
 }
 
 .container {
-    width:
-        min(calc(100% - (var(--side-padding) * 2)),
+    width: min(calc(100% - (var(--side-padding) * 2)),
             var(--max-width));
     margin: 0 auto;
 }
@@ -98,8 +96,7 @@ Replace .screen-placeholder with an actual image later.
     justify-content: center;
     width: 100%;
     height: 100%;
-    background:
-        linear-gradient(135deg,
+    background: linear-gradient(135deg,
             #ededE8 25%,
             #e7e7e2 25%,
             #e7e7e2 50%,
@@ -118,8 +115,7 @@ Replace .screen-placeholder with an actual image later.
     position: relative;
     z-index: 2;
     padding: 8px 12px;
-    background:
-        rgba(245, 245, 242, .8);
+    background: rgba(245, 245, 242, .8);
     backdrop-filter: blur(8px);
     border-radius: 4px;
     white-space: nowrap;
@@ -131,13 +127,10 @@ PHONE
 .phone {
     position: relative;
     background: #11110f;
-    border:
-        5px solid #11110f;
-    border-radius:
-        var(--radius-phone);
+    border: 5px solid #11110f;
+    border-radius: var(--radius-phone);
     overflow: hidden;
-    box-shadow:
-        0 30px 80px rgba(0, 0, 0, .13);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, .13);
 }
 
 /* .phone::before {
@@ -157,8 +150,7 @@ PHONE
     width: 100%;
     height: 100%;
     overflow: hidden;
-    border-radius:
-        calc(var(--radius-phone) - 7px);
+    border-radius: calc(var(--radius-phone) - 7px);
 }
 
 /* =========================================================
@@ -189,8 +181,7 @@ header {
 .header-link {
     font-size: 11px;
     color: var(--muted);
-    transition:
-        color .2s ease;
+    transition: color .2s ease;
 }
 
 .header-link:hover {
@@ -202,14 +193,12 @@ header {
     display: flex;
     align-items: center;
     position: relative;
-    padding:
-        140px 0 100px; */
+    padding: 140px 0 100px; */
 
     text-align: center;
     padding-top: 2rem;
 
-    font-size:
-        clamp(60px,
+    font-size: clamp(60px,
             8vw,
             160px);
     line-height: .79;
@@ -225,14 +214,12 @@ HERO
     display: flex;
     align-items: center;
     position: relative;
-    padding:
-        140px 0 100px;
+    padding: 140px 0 100px;
 }
 
 .hero-grid {
     display: grid;
-    grid-template-columns:
-        1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 80px;
     /* width: 100%; */
@@ -240,8 +227,7 @@ HERO
 
 .hero-title {
     margin-top: 30px;
-    font-size:
-        clamp(80px,
+    font-size: clamp(80px,
             11vw,
             160px);
     line-height: .79;
@@ -269,8 +255,7 @@ HERO
 }
 
 .hero-value {
-    font-size:
-        clamp(80px,
+    font-size: clamp(80px,
             11vw,
             220px);
     line-height: .72;
@@ -294,8 +279,7 @@ HERO
 TIMELINE
 ========================================================= */
 .timeline-section {
-    padding:
-        80px 0 100px;
+    padding: 80px 0 100px;
 }
 
 .timeline {
@@ -316,8 +300,7 @@ TIMELINE
     position: relative;
     min-height: 620px;
     display: grid;
-    grid-template-columns:
-        1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 
@@ -329,8 +312,7 @@ TIMELINE
     height: 9px;
     border-radius: 50%;
     background: var(--text);
-    transform:
-        translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     z-index: 3;
 }
 
@@ -358,8 +340,7 @@ TIMELINE
 }
 
 .timeline-value {
-    font-size:
-        clamp(70px,
+    font-size: clamp(70px,
             9vw,
             130px);
     line-height: .78;
@@ -386,14 +367,12 @@ TIMELINE
 
 .timeline-item:nth-child(odd) .timeline-phone {
     right: 2%;
-    transform:
-        translateY(-50%) rotate(4deg);
+    transform: translateY(-50%) rotate(4deg);
 }
 
 .timeline-item:nth-child(even) .timeline-phone {
     left: 2%;
-    transform:
-        translateY(-50%) rotate(-4deg);
+    transform: translateY(-50%) rotate(-4deg);
 }
 
 /* =========================================================
@@ -403,8 +382,7 @@ STATEMENT
     min-height: 100svh;
     display: flex;
     align-items: center;
-    padding:
-        150px 0;
+    padding: 150px 0;
 }
 
 .statement-inner {
@@ -412,8 +390,7 @@ STATEMENT
 }
 
 .statement-line {
-    font-size:
-        clamp(70px,
+    font-size: clamp(70px,
             8vw,
             180px);
     line-height: .78;
@@ -434,21 +411,18 @@ STATEMENT
 BODY METRICS
 ========================================================= */
 .metrics {
-    padding:
-        180px 0;
+    padding: 180px 0;
 }
 
 .metrics-intro {
     display: grid;
-    grid-template-columns:
-        1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 80px;
     margin-bottom: 130px;
 }
 
 .metrics-title {
-    font-size:
-        clamp(45px,
+    font-size: clamp(45px,
             6vw,
             82px);
     line-height: .9;
@@ -468,22 +442,18 @@ BODY METRICS
 .metric {
     position: relative;
     display: grid;
-    grid-template-columns:
-        1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     min-height: 300px;
-    border-top:
-        1px solid var(--line);
+    border-top: 1px solid var(--line);
 }
 
 .metric:last-child {
-    border-bottom:
-        1px solid var(--line);
+    border-bottom: 1px solid var(--line);
 }
 
 .metric-value {
-    font-size:
-        clamp(70px,
+    font-size: clamp(70px,
             10vw,
             145px);
     line-height: .8;
@@ -515,22 +485,19 @@ BRI
     min-height: 100svh;
     display: flex;
     align-items: center;
-    padding:
-        160px 0;
+    padding: 160px 0;
 }
 
 .bri-grid {
     display: grid;
-    grid-template-columns:
-        .8fr 1.2fr;
+    grid-template-columns: .8fr 1.2fr;
     gap: 100px;
     align-items: center;
 }
 
 .bri-title {
     margin-top: 30px;
-    font-size:
-        clamp(50px,
+    font-size: clamp(50px,
             7vw,
             100px);
     line-height: .86;
@@ -557,8 +524,7 @@ BRI
 HEALTH
 ========================================================= */
 .health {
-    padding:
-        200px 0;
+    padding: 200px 0;
 }
 
 .health-heading {
@@ -567,8 +533,7 @@ HEALTH
 
 .health-title {
     margin-top: 30px;
-    font-size:
-        clamp(80px,
+    font-size: clamp(80px,
             13vw,
             190px);
     line-height: .75;
@@ -579,8 +544,7 @@ HEALTH
 .health-grid {
     margin-top: 150px;
     display: grid;
-    grid-template-columns:
-        1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1px;
     background: var(--line);
 }
@@ -595,8 +559,7 @@ HEALTH
 }
 
 .health-value {
-    font-size:
-        clamp(60px,
+    font-size: clamp(60px,
             8vw,
             115px);
     line-height: .8;
@@ -615,10 +578,8 @@ HEALTH
 .health-phone {
     width: 220px;
     height: 450px;
-    margin:
-        70px auto 0;
-    transform:
-        rotate(-3deg);
+    margin: 70px auto 0;
+    transform: rotate(-3deg);
 }
 
 /* =========================================================
@@ -628,16 +589,15 @@ GOALS
     min-height: 100svh;
     display: flex;
     align-items: center;
-    padding:
-        180px 0;
+    padding: 180px 0;
 }
 
 .goals-title {
     margin-top: 30px;
-    font-size:
-        clamp(70px,
+    font-size: 12vw;
+    /* clamp(70px,
             12vw,
-            180px);
+            180px); */
     line-height: .76;
     letter-spacing: -.09em;
     font-weight: 500;
@@ -661,10 +621,8 @@ GOALS
 .goals-phone {
     width: 300px;
     height: 610px;
-    margin:
-        100px auto 0;
-    transform:
-        rotate(3deg);
+    margin: 100px auto 0;
+    transform: rotate(3deg);
 }
 
 /* =========================================================
@@ -681,8 +639,7 @@ FINAL
 
 .final-title {
     margin-top: 30px;
-    font-size:
-        clamp(70px,
+    font-size: clamp(70px,
             12vw,
             180px);
     line-height: .77;
@@ -699,16 +656,13 @@ FINAL
     align-items: center;
     justify-content: center;
     margin-top: 70px;
-    padding:
-        16px 26px;
-    border:
-        1px solid var(--text);
+    padding: 16px 26px;
+    border: 1px solid var(--text);
     border-radius: 100px;
     font-size: 11px;
     letter-spacing: .08em;
     text-transform: uppercase;
-    transition:
-        background .25s ease,
+    transition: background .25s ease,
         color .25s ease;
 }
 
@@ -736,17 +690,18 @@ REVEAL ANIMATION
 ========================================================= */
 .reveal {
     opacity: 0;
-    transform:
-        translateY(35px);
-    transition:
-        opacity .8s ease,
+    transform: translateY(35px);
+    transition: opacity .8s ease,
         transform .8s ease;
 }
 
 .reveal.visible {
     opacity: 1;
-    transform:
-        translateY(0);
+    transform: translateY(0);
+}
+
+.privacy-header {
+    padding-top: 1rem;
 }
 
 /* =========================================================
@@ -762,16 +717,14 @@ MOBILE
     GLOBAL
 ----------------------------------------- */
     .container {
-        width:
-            calc(100% - 40px);
+        width: calc(100% - 40px);
     }
 
     /* -----------------------------------------
     HEADER
 ----------------------------------------- */
     header {
-        padding:
-            20px 0;
+        padding: 20px 0;
     }
 
     .logo {
@@ -786,10 +739,8 @@ MOBILE
     HERO
 ----------------------------------------- */
     .hero {
-        min-height:
-            820px;
-        padding:
-            130px 0 60px;
+        min-height: 820px;
+        padding: 130px 0 60px;
         display: block;
     }
 
@@ -799,20 +750,19 @@ MOBILE
 
     .hero-title {
         margin-top: 28px;
-        font-size:
-            24vw;
+        font-size: 18vw;
+        font-weight: bold;
         line-height: .78;
     }
 
     .hero-title span {
-        margin-left:
-            13vw;
+        margin-left: 13vw;
     }
 
     .hero-description {
         max-width: 270px;
         margin-top: 35px;
-        font-size: 13px;
+        font-size: 1rem;
         line-height: 1.6;
     }
 
@@ -826,18 +776,19 @@ MOBILE
     }
 
     .hero-value {
-        font-size:
-            27vw;
+        font-size: 27vw;
         line-height: .72;
     }
 
     .hero-unit {
         margin-top: 18px;
-        font-size: 11px;
+        font-size: 1rem;
+        text-align: right;
     }
 
     .hero-change {
-        font-size: 10px;
+        font-size: 0.8rem;
+        text-align: right;
     }
 
     /* Hero phone */
@@ -848,16 +799,14 @@ MOBILE
         top: 300px;
         width: 190px;
         height: 390px;
-        transform:
-            rotate(6deg);
+        transform: rotate(6deg);
     }
 
     /* -----------------------------------------
     TIMELINE
 ----------------------------------------- */
     .timeline-section {
-        padding:
-            100px 0 130px;
+        padding: 100px 0 130px;
     }
 
     .timeline::before {
@@ -885,18 +834,18 @@ MOBILE
     }
 
     .timeline-date {
+        padding-top: 2rem;
         margin-bottom: 18px;
-        font-size: 9px;
+        font-size: 0.7rem;
     }
 
     .timeline-value {
-        font-size:
-            22vw;
+        font-size: 22vw;
     }
 
     .timeline-label {
         margin-top: 18px;
-        font-size: 9px;
+        font-size: 0.7rem;
     }
 
     .timeline-phone,
@@ -909,28 +858,23 @@ MOBILE
         width: 165px;
         height: 340px;
         margin-top: 50px;
-        transform:
-            rotate(4deg);
+        transform: rotate(4deg);
     }
 
     /* -----------------------------------------
     STATEMENT
 ----------------------------------------- */
     .statement {
-        min-height:
-            700px;
-        padding:
-            100px 0;
+        min-height: 700px;
+        padding: 100px 0;
     }
 
     .statement-line {
-        font-size:
-            24vw;
+        font-size: 24vw;
     }
 
     .statement-line:nth-child(2) {
-        margin-left:
-            10vw;
+        margin-left: 10vw;
     }
 
     .statement-line:nth-child(3) {
@@ -941,38 +885,32 @@ MOBILE
     METRICS
 ----------------------------------------- */
     .metrics {
-        padding:
-            120px 0;
+        padding: 120px 0;
     }
 
     .metrics-intro {
         display: block;
-        margin-bottom:
-            80px;
+        margin-bottom: 80px;
     }
 
     .metrics-title {
-        font-size:
-            15vw;
+        font-size: 15vw;
     }
 
     .metrics-description {
         margin-top: 35px;
         max-width: 280px;
-        font-size: 13px;
+        font-size: 1rem;
     }
 
     .metric {
-        min-height:
-            230px;
+        min-height: 230px;
         display: block;
-        padding:
-            55px 0;
+        padding: 55px 0;
     }
 
     .metric-value {
-        font-size:
-            20vw;
+        font-size: 20vw;
     }
 
     .metric-info {
@@ -980,22 +918,20 @@ MOBILE
     }
 
     .metric-name {
-        font-size: 9px;
+        font-size: 0.8rem;
     }
 
     .metric-change {
         margin-top: 12px;
-        font-size: 11px;
+        font-size: 0.8rem;
     }
 
     /* -----------------------------------------
     BRI
 ----------------------------------------- */
     .bri {
-        min-height:
-            800px;
-        padding:
-            120px 0;
+        min-height: 800px;
+        padding: 120px 0;
     }
 
     .bri-grid {
@@ -1003,60 +939,51 @@ MOBILE
     }
 
     .bri-title {
-        font-size:
-            14.5vw;
+        font-size: 14.5vw;
     }
 
     .bri-description {
         margin-top: 35px;
         max-width: 270px;
-        font-size: 13px;
+        font-size: 1rem;
     }
 
     .bri-phone {
         width: 200px;
         height: 410px;
-        margin:
-            80px auto 0;
-        transform:
-            rotate(4deg);
+        margin: 80px auto 0;
+        transform: rotate(4deg);
     }
 
     /* -----------------------------------------
     HEALTH
 ----------------------------------------- */
     .health {
-        padding:
-            130px 0;
+        padding: 130px 0;
     }
 
     .health-title {
-        font-size:
-            25vw;
+        font-size: 25vw;
     }
 
     .health-grid {
         display: block;
-        margin-top:
-            90px;
+        margin-top: 90px;
         background: none;
     }
 
     .health-item {
-        min-height:
-            600px;
-        padding:
-            50px 25px;
+        min-height: 600px;
+        padding: 50px 25px;
         margin-bottom: 2px;
     }
 
     .health-value {
-        font-size:
-            19vw;
+        font-size: 19vw;
     }
 
     .health-label {
-        font-size: 9px;
+        font-size: 0.8rem;
     }
 
     .health-phone {
@@ -1069,71 +996,65 @@ MOBILE
     GOALS
 ----------------------------------------- */
     .goals {
-        min-height:
-            850px;
-        padding:
-            130px 0;
+        min-height: 850px;
+        padding: 130px 0;
     }
 
-    .goals-title {
-        font-size:
-            22vw;
-    }
+    /* .goals-title {
+        font-size: 1rem
+    } */
 
     .goals-title span {
-        margin-left:
-            14vw;
+        margin-left: 14vw;
     }
 
     .goals-description {
-        margin:
-            45px 0 0;
-        max-width:
-            270px;
-        font-size:
-            13px;
+        margin: 45px 0 0;
+        max-width: 270px;
+        font-size: 0.8rem;
     }
 
     .goals-phone {
         width: 195px;
         height: 400px;
-        margin-top:
-            70px;
+        margin-top: 70px;
     }
 
     /* -----------------------------------------
     FINAL
 ----------------------------------------- */
     .final {
-        min-height:
-            750px;
-        padding:
-            100px 0;
+        min-height: 750px;
+        padding: 100px 0;
     }
 
-    .final-title {
-        font-size:
-            23vw;
-    }
+    /* .final-title {
+        font-size: 14vw;
+    } */
 
     .app-store {
-        margin-top:
-            55px;
-        padding:
-            15px 22px;
-        font-size:
-            10px;
+        margin-top: 55px;
+        padding: 15px 22px;
+        font-size: 10px;
     }
 
     /* -----------------------------------------
     FOOTER
 ----------------------------------------- */
     footer {
-        padding:
-            25px 0 35px;
+        padding: 25px 0 35px;
         flex-direction: column;
         gap: 10px;
     }
+
+    .titleline {
+        font-size: 12vw;
+    }
+
+    .eyebrow {
+        font-size: 0.8rem;
+    }
+
 }
 
 .nav-menu {
@@ -1203,7 +1124,4 @@ MOBILE
         display: flex;
     }
 
-    .hero h1 {
-        font-size: 2rem;
-    }
 }
