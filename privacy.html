@@ -2,16 +2,16 @@
 <html lang="en">
 
 <head>
-    <title>Simmiwa - Body values easily at a glance - Privacy</title>
+    <title>Simmiwa - Your health in perspective</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Document your personal body data in Simmiwa. Easy to record. Clearly displayed. Body values at a glance. Your health. Your data. Your progress." />
-    <meta property="og:title" content="Simmiwa - Body values easily at a glance" />
+        content="Document your personal body data in Simmiwa. Easy to record. Clearly displayed. Body valuee at a glance. Your health. Your data. Your progress." />
+    <meta property="og:title" content="Simmiwa - Your health in perspective" />
     <meta property="og:description"
-        content="Document your personal body data in Simmiwa. Easy to record. Clearly displayed. Body values at a glance. Your health. Your data. Your progress." />
+        content="Document your personal body data in Simmiwa. Easy to record. Clearly displayed. Body valuee at a glance. Your health. Your data. Your progress." />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Simmiwa - Your personal Health diary">
+    <meta property="og:site_name" content="Simmiwa - Your health in perspective">
     <meta property="og:url" content="https://christiansapps.github.io/simmiwa/privacy.html">
     <link rel="stylesheet" href="./css/main.css" />
 </head>
@@ -21,29 +21,30 @@
         <!-- =======================================================
        HEADER
   ======================================================== -->
-        <header>
-            <div class="nav-container">
-                <a class="logo" href="./index.html">
-                    <img src="./images/logo.png" width="68" height="68" style="object-fit: contain;" />
+        <header class="header">
+            <div class="container nav">
+
+                <a href="index.html" class="logo">
+                    simmiwa<span>.</span>
                 </a>
 
+                <nav class="nav-links">
+                    <a href="./index.html">Home</a>
+                    <a href="#contact">Contact</a>
+                </nav>
 
-                <input type="checkbox" id="menu-toggle" class="menu-toggle">
-                <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                <div class="nav-actions">
+                    <div class="language-switch">
+                        <a href="index-de.html">DE</a>
+                        <span>|</span>
+                        <a href="index.html" class="active">EN</a>
+                    </div>
+                </div>
 
-                <ul class="nav-menu">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./de.html">Deutsch</a></li>
-                </ul>
             </div>
         </header>
-        <main>
-            <section class="titleline" id="home">
-                <h1>
-                    Simmiwa
-                </h1>
-            </section>
 
+        <main>
             <section class="container privacy-text">
                 <div>
                     <h1>Privacy Policy</h1>
@@ -189,7 +190,7 @@
                         If you have any questions about data protection or data processing, please contact us:
                     </p>
 
-                    <p>
+                    <p id="contact">
                         Simmiwa
                     </p>
                     <p>
@@ -201,20 +202,16 @@
         <!-- =======================================================
        FOOTER
   ======================================================== -->
-        <footer class="container">
-            <div>
-                <span>
-                    Simmiwa
-                </span>
-                <span>
-                    &copy; 2026
-                </span>
-                <span>
-                    MADE FOR IPHONE
-                </span>
-            </div>
-            <div>
-                <a href=" ./terms.html">Terms of Use</a> &amp; <a href="./privacy.html">Privacy Policy</a>
+        <footer class="footer" id="contact">
+            <div class="container footer-content">
+                <div>
+                    © Simmiwa · Your health in perspective
+                </div>
+                <div class="footer-links">
+                    <a href=" ./terms.html">Terms of Use</a>
+                    <a href="./privacy.html">Privacy Policy</a>
+                    <a href="mailto:simmiwa@protonmail.com">Contact</a>
+                </div>
             </div>
         </footer>
     </div>
